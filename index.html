@@ -39,6 +39,7 @@
     <link href="css/creative-brands.css" rel="stylesheet" type="text/css">
     <link href="css/vertical-carousel.css" rel="stylesheet" type="text/css">
     <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/share.css" rel="stylesheet" type="text/css">
     
     <!-- ==========================
     	JS 
@@ -737,16 +738,33 @@
     <section id="footer">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12 scrollpoint sp-effect3">
-                
-               			<ul class="brands brands-inline">
-                            <li><a href="https://www.facebook.com/amulya.indrakush/"><i class="fa fa-facebook  hi-icon-effect-8"></i></a></li>
-                            <li><a href="https://www.twitter.com/peoplecallmeAMY/"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://www.instagram.com/_.heisenberg_/"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="https://in.linkedin.com/in/amulya-indrakush-6b9324118"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>  
-        
-                </div>   	
+                <div class="share">
+					<button class="share-toggle-button">
+						<i class="share-icon fa fa-share-alt"></i>
+					</button>
+					<ul class="share-items">
+						<li class="share-item">
+							<a href="https://www.facebook.com/amulya.indrakush/" class="share-button">
+								<i class="share-icon fa fa-facebook"></i>
+							</a>
+						</li>
+						<li class="share-item">
+							<a href="https://www.twitter.com/peoplecallmeAMY/" class="share-button">
+								<i class="share-icon fa fa-twitter"></i>
+							</a>
+						</li>
+						<li class="share-item">
+							<a href="https://www.instagram.com/_.heisenberg_/" class="share-button">
+								<i class="share-icon fa fa-instagram"></i>
+							</a>
+						</li>
+						<li class="share-item">
+							<a href="https://in.linkedin.com/in/amulya-indrakush-6b9324118" class="share-button">
+								<i class="share-icon fa fa-linkedin"></i>
+							</a>
+						</li>
+					</ul>
+				</div>   	
             </div>
         </div>
     </section>
@@ -767,6 +785,8 @@
     <script src="js/jquery.countTo.js"></script>
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/custom.js"></script>
+    <script src="js/share.js"></script>
+    <script src="js/TweenMax.min.js"></script>
     <script>
     $(function () { 
 		$("input,textarea").jqBootstrapValidation({
